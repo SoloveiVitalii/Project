@@ -1,0 +1,53 @@
+body {
+    max-width: 1170px;
+    margin: auto;
+
+}
+#header {
+	/*padding-bottom: 30px;*/
+
+}
+#header .navbar {
+	/*position: fixed;*/
+}
+#header .navbar-nav {
+	padding-left: 280px;
+
+    .nav-item a {
+    	padding-left: 15px;
+    	font-family: 'Lato', sans-serif;
+    	font-size: 20px;
+    	font-weight: 600;
+    	color: #4f4f4f;
+    }
+    a:hover {
+    	color: #232323;
+
+    }
+
+}
+#header .form-inline {
+	 position: relative;
+	/* width: 200px;
+	 margin: 0 auto;
+	 height: 42px;*/
+
+input {
+	background: #e8e4f1; 
+  }
+}
+#header .collapse form{
+	padding-left: 20px;
+}
+#header .dropdown-menu {
+	background: #25193c;
+	opacity: 0.9;
+
+	li .dropdown-item {
+		color: #fff;
+	}
+}
+ .carousel-caption .color-text {
+	color: #fff200;
+
+}
